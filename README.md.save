@@ -15,15 +15,4 @@ Basic network topology using pfSense firewall and VirtualBox internal networks.
 - Configured virtual lab environment with pfSense and Ubuntu Client.
 - Set up internal network routing and DHCP on pfSense.
 - Configured strict Firewall rules on the LAN interface to block specific ICMP traffic to `8.8.8.8` while keeping other external traffic (`1.1.1.1`) allowed, demonstrating rule hierarchy.
-- Verified rule execution using `ping` and reviewed dropped packets in pfSense Firewall logs.
-
-## Screenshots
-
-### 1. Client IP Configuration
-![Client IP](screenshots/3.jpg)
-
-### 2. Firewall Rules (LAN)
-![Firewall Rules](screenshots/2.jpg)
-
-### 3. pfSense configuration
-![Firewall Logs](screenshots/1.jpg)
+- Verified rule execution using `ping` and reviewed dropped packets in pfSense Fi
